@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+main {
+  background-color: brown;
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+main .encabezado {
+  min-width: 100%;
+  background-color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  z-index: 1000;
+  box-shadow: 0px 0px 25px #4c4c4c;
+}
+main .encabezado .nav {
+  min-width: 100%;
+  display: flex;
+}
+main .encabezado .nav nav {
+  min-width: 100%;
+  display: flex;
+  position: relative;
+}
+main .encabezado .nav nav .logo {
+  margin-left: 50px;
+  margin-top: 10px;
+  background-color: black;
+  width: 50px;
+  height: 50px;
+}
+main .encabezado .nav nav .seccion-1 {
+  display: flex;
+  position: relative;
+}
+main .encabezado .nav nav .seccion-1 ul {
+  align-items: center;
+  min-width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+main .encabezado .nav nav .seccion-1 ul li {
+  margin-left: 60px;
+  justify-content: center;
+  list-style: none;
+}
+main .encabezado .nav nav .seccion-1 ul li a {
+  position: relative;
+  text-decoration: none;
+  color: black;
+  top: 50%;
+}
+main .encabezado .nav nav .seccion-1 ul li a:hover {
+  color: #166AEA;
+}
+main .encabezado .nav nav .v-line {
+  border-right: 1px solid #ccc;
+  margin-left: 20px;
+  height: 30px;
+  align-items: center;
+  display: flex;
+  margin-top: 20px;
+}
+main .encabezado .nav nav .seccion-2 {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+main .encabezado .nav nav .seccion-2 .s1 {
+  position: relative;
+  margin-right: 180px;
+}
+main .encabezado .nav nav .seccion-2 .s1 ul {
+  align-items: center;
+  display: flex;
+}
+main .encabezado .nav nav .seccion-2 .s1 ul li {
+  margin-left: 50px;
+  list-style: none;
+}
+main .encabezado .nav nav .seccion-2 .s1 ul li a {
+  position: relative;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  top: 50%;
+}
+main .encabezado .nav nav .seccion-2 .s1 ul li a:hover {
+  color: #166AEA;
+}
+main .encabezado .nav nav .seccion-2 .s2 {
+  display: flex;
+  align-items: center;
+}
+main .encabezado .nav nav .seccion-2 .s2 .logo {
+  background-color: transparent;
+  padding-top: 10px;
+}
+main .encabezado .nav nav .seccion-2 .s2 .logo .icon {
+  font-size: 24px;
+  --ionicon-stroke-width: 20px;
+}
+main .encabezado .nav nav .seccion-2 .s2 .logo .icon:hover {
+  color: #166AEA;
+}
+main .encabezado .nav nav .seccion-2 .s2 .entrar a {
+  background-color: white;
+  border: 1px solid #166AEA;
+  margin: 10px 0px;
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+  padding: 15px 50px;
+  border-radius: 40px;
+  font-weight: 500;
+  color: #166AEA;
+  min-width: 100%;
+}
+main .encabezado .nav nav .seccion-2 .s2 .entrar a:hover {
+  background-color: #166AEA;
+  color: white;
+}
+main .seccion-1 {
+  display: flex;
+  position: absolute;
+  left: 0;
+}
+main .seccion-1 article {
+  height: 300px;
+  width: 500px;
+  background-color: aqua;
+  align-items: center;
+}
+main .seccion-1 article h2 {
+  background-color: chartreuse;
+  font-size: 3.5em;
+}
+main .seccion-1 article p {
+  background-color: bisque;
+  font-size: 1.3em;
+}
+main .seccion-1 article a {
+  background-color: black;
+  color: white;
+  width: 200px;
+  padding: 20px;
+  border-radius: 40px;
+  display: flex;
+}
+main .seccion-1 aside {
+  background-color: black;
+  width: 50px;
+}/*# sourceMappingURL=styles.css.map */
